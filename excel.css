@@ -1,0 +1,307 @@
+*{
+    box-sizing: border-box;
+    margin: 0;}
+body{
+    text-align: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    min-width: 320px;
+    width: 100%;
+}
+section{
+    background-color: rgb(131, 248, 96);
+    padding-bottom:5%;}
+h3{
+     color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 5%;}
+div{
+    text-align: justify ;
+    font-size: 2.5rem;}
+span{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 9rem;}
+.p1{
+    margin: 10%;
+    text-align: justify;}
+.p2{
+    margin: 5%;}
+.video1{
+    background-color: rgb(41, 7, 235);  
+}
+.p3{
+    text-align: left;
+    margin: 5%;
+}
+button{
+    background-color: rgb(9, 255, 9);
+    cursor: pointer;
+    border: 0;
+    color: rgb(238, 235, 235);
+    font-size: 1.8rem;
+    width: 40%;
+    padding: 2%;
+    border-radius: 10px;
+}
+button:hover{ 
+    background-color: rgb(219, 219, 219);
+    color: black;}
+.p3{
+    font-size: 4rem;
+    text-align: center;
+    background-color: rgb(111, 194, 72);
+}
+.section2{
+    background-color: rgb(179, 179, 187);
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+   justify-content:space-evenly ;
+   flex-wrap: wrap-reverse;
+   padding-left: 10%;
+}
+.div1{
+    background-color: rgb(131, 248, 96);
+    text-align: center;
+    padding: 5%; 
+}
+.div2{
+    border-radius: 5%;  
+    text-align: center;
+    border: 1px solid;
+    width: 85%;
+    font-size: 1.2rem;
+    padding: 5%; 
+}
+.p4{
+    background-color: white;
+    width: 100%;
+    padding-bottom: 10%;
+}
+.section3{
+    background-color: white;
+    text-align: center;
+}
+mark{
+    background-color: white;
+    color: red;
+}
+.span2{
+      float: right;
+      letter-spacing: 5px;
+      line-height: 4;
+     }
+.img2{
+    width: 40%;
+    height: 5%;
+   float:inline-end;
+   margin-right: 60%;
+   
+}
+h2{
+    margin-top: 15%;
+    font-size: 3rem;
+    padding-bottom: 3%;
+}
+.p5{
+    text-align: left;
+    font-size: 2rem;
+   margin-left: 5%;
+  
+}
+.p6{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.img3{
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+}
+.section4{
+    background-color: rgb(131, 248, 96);
+}
+ul{
+    text-align: left;
+    list-style-type: none;
+    margin: 5%;
+}
+li::before{
+    content:"📪"; 
+    line-height:1.5em;
+}
+.li1::before{
+      content:"✔";
+    background-color: black;
+    color: white;   
+}
+p{
+    text-align: left;
+}
+.section5{
+    background-color:white;
+}
+.img4{
+    margin-top: 10%;
+    width: 25%;
+}
+.p7{
+    padding-top: 3%;
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 5%;
+   
+}
+.p8{
+    text-align: center;
+    margin-bottom: 8%;
+}
+.section6{
+    background-color: rgb(174, 241, 97);
+    text-align: center;}
+.p9{
+    margin: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.p10{
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 5%;
+}
+.p11{
+    font-size: 7rem;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.mark2{
+    background-color: rgb(174, 342, 97);
+}
+footer{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+a:link{color:green}
+a:visited{color: blue;}
+a:hover{color: coral;}
+a:active{color: red;}
+/*tablet*/
+@media screen and (min-width:679px) and (max-width:1023px)
+{
+    body{
+        width: 100%;      
+    }
+    section{
+    background-color: rgb(74, 235, 11);
+}
+h3{
+     color: rgb(38, 241, 38);
+}
+.section2{
+    background-color: #d9ffad;
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+   justify-content:space-evenly ;
+   flex-wrap: wrap-reverse;
+}
+.div1{
+    background-color:rgb(201, 249, 255);
+ }
+
+img{
+    width: 80%;
+}
+.p4{
+    background-color: white;
+    width: 100%;
+    padding-bottom: 10%;
+}
+.img2{
+   margin-right: 67%;
+}
+.img4{
+    width: 35%;
+}
+.section4{
+    background-color: rgb(54, 180, 253);
+}
+.section6{
+    background-color: rgb(54, 180, 253);
+    }
+.mark2{
+   background-color: rgb(54, 180, 253);
+}
+}
+/*celular*/
+@media screen and (max-width:678px){
+   section{
+    background-color:rgb(181, 240, 147);
+  }
+  body{
+    font-size: 1.2rem;
+  }
+.p1{
+    font-size: 1.5rem;
+}
+span{
+     font-size: 7rem;
+}
+.video1{
+    width: 90%;
+}
+button{
+    font-size: 1.3rem;  
+}
+.p3{
+    font-size: 3rem;
+}
+.section2{
+    background-color: rgb(28, 255, 66);
+    grid-template-columns: 1fr 1fr ;
+}
+.div1{
+     background-color: rgb(28, 255, 66);
+}
+.div2{
+    width: 90%;
+}
+ img{
+    width: 80%;
+}
+.img2{
+   margin-right:50%;
+}
+h2{
+    font-size: 2.5rem;
+}
+.p5{
+    font-size: 1.5rem;
+   padding-right: 5%;
+}
+.p6{
+    font-size: 2.2rem;
+}
+.section4{
+    background-color: rgb(197, 255, 197);
+}
+.section6{
+     background-color: rgb(197, 255, 197);
+}
+.p10{
+    font-size: 3rem;
+}
+.p11{
+    font-size: 6rem;
+}
+.mark2{
+   background-color: rgb(197, 255, 197);
+}
+    }
